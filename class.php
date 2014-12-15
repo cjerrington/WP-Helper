@@ -1,5 +1,4 @@
 <?php
-// Options template found at http://www.hughlashbrooke.com/2014/02/complete-versatile-options-page-class-wordpress-plugin/ 
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
@@ -362,7 +361,7 @@ class WordPress_Plugin_Template_Settings {
 
 			case 'checkbox':
 				$checked = '';
-				if( $data && 'on' == $data ){
+				if( $option&& 'on' == $option){
 					$checked = 'checked="checked"';
 				}
 				$html .= '<input id="' . esc_attr( $field['id'] ) . '" type="' . $field['type'] . '" name="' . esc_attr( $option_name ) . '" ' . $checked . '/>' . "\n";
