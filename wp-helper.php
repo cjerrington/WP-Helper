@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WordPressress Helper
+Plugin Name: WordPress Helper
 Plugin Script: wp-helper.php
 Plugin URI: https://github.com/cjerrington/WP-Helper/
 Description: Removes and speeds up WordPress. 
