@@ -2,7 +2,7 @@
 /*
 Plugin Name: WordPressress Helper
 Plugin Script: wp-helper.php
-Plugin URI: http://claytonerrington.wix.com/portfolio
+Plugin URI: https://github.com/cjerrington/WP-Helper/archive/master.zip
 Description: Removes and speeds up WordPress. 
 Version: 1.3
 License: GPL
