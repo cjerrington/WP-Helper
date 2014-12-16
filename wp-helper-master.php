@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: WordPress Helper
-Plugin Script: wp-helper.php
+Plugin Name: WordPress Helper Master
+Plugin Script: wp-helper-master.php
 Plugin URI: https://github.com/cjerrington/WP-Helper/
 Description: Removes and speeds up WordPress. 
 Version: 1.3
