@@ -1,3 +1,8 @@
+-WP-Helper
+-=========
+
+-A wordpress plugin that disables, enables, and enhances WP and other settings
+
 === WordPress Helper Master ===
 Contributors: cjerrington 
 Donate link:https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=MBTuGoGXfC-gfs0L
