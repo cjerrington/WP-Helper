@@ -6,7 +6,7 @@ Requires at least: 3.0
 Tested up to: 4.0.1
 Stable tag: /master/
 License: GPL
-
+ 
 == Description ==
 
 Removes and speeds up WordPress. Admin, security, performance, and WordPress clean up. 
