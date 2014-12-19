@@ -14,7 +14,8 @@ Removes and speeds up WordPress. Admin, security, performance, and WordPress cle
 
 == Installation ==
 
-Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
+Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page. To change settings go to the Settings menu in the admin panel click save to save any changes.
+
 == Changelog ==
 2014-12-10 - v1.0 - first version
 2014-12-11 - v1.2 - add security, performance, and admin modifications
