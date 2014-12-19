@@ -36,8 +36,6 @@ Online: http://www.gnu.org/licenses/gpl.txt
 
 include_once(dirname(__FILE__).'/class.php');
 
-if (get_option( 'wpt_cononical_links' )){}
-
 // ++++++++++++++++ WP CLEANUP +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
  	
 if (get_option( 'wpt_cononical_links' )){remove_action ('wp_head', 'rsd_link');}
