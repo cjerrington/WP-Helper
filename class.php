@@ -2,8 +2,8 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-class WordPress_Plugin_Template_Settings {
-    private $dir;
+class WP_Helper_Master_Settings {
+    	private $dir;
 	private $file;
 	private $assets_dir;
 	private $assets_url;
@@ -15,7 +15,7 @@ class WordPress_Plugin_Template_Settings {
 		$this->dir = dirname( $this->file );
 		$this->assets_dir = trailingslashit( $this->dir ) . 'assets';
 		$this->assets_url = esc_url( trailingslashit( plugins_url( '/assets/', $this->file ) ) );
-		$this->settings_base = 'wpt_';
+		$this->settings_base = 'wphm_';
 
 		// Initialise settings
 		add_action( 'admin_init', array( $this, 'init' ) );
