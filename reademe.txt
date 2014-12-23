@@ -1,5 +1,5 @@
 === WordPress Helper Master ===
-Contributors: cjerrington 
+Contributors: cedesigns 
 Donate link:https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=MBTuGoGXfC-gfs0L
 Tags: improvements, wordpress, admin, security
 Requires at least: 3.0
