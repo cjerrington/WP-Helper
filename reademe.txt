@@ -3,17 +3,15 @@ Contributors: cedesigns
 Donate link:https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=MBTuGoGXfC-gfs0L
 Tags: improvements, wordpress, admin, security
 Requires at least: 3.0
-Tested up to: 4.0.1
-Stable tag: /master/
+Tested up to: 4.1
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-
 Removes and speeds up WordPress. Admin, security, performance, and WordPress clean up. 
 
 == Installation ==
-
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page. To change settings go to the Settings menu in the admin panel click save to save any changes.
 
 == Changelog ==
