@@ -4,22 +4,13 @@ Plugin Name: WordPress Helper Master
 Plugin Script: wp-helper-master.php
 Plugin URI: https://github.com/cjerrington/WP-Helper/
 Description: Removes and speeds up WordPress. 
-Version: 1.4.1
+Version: 1.4.2
 Author: Clayton Errington
 Author URI: http://claytonerrington.com
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 GitHub Plugin URI: https://github.com/cjerrington/WP-Helper
 
-=== RELEASE NOTES ===
-2014-12-10 - v1.0 - first version
-2014-12-11 - v1.2 - add security, performance, and admin modifications
-2014-12-11 - v1.3 - add admin / options page
-2014-12-22 - v1.4 - add plugin specific function names
-2015-02-16 - v1.4.1 - update Author URI
-*/
-
-/*
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2 of the License, or
