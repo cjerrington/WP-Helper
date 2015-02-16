@@ -5,7 +5,7 @@ A wordpress plugin that disables, enables, and enhances WP and other settings
 
 WordPress Helper Master
 =========
-Contributors: cjerrington
+Contributors: [cjerrington](http://claytonerrington.com)
 
 Donate link:https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=MBTuGoGXfC-gfs0L
 
