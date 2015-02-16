@@ -31,7 +31,9 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 Changelog
 =========
 2014-12-10 - v1.0 - first version
+
 2014-12-11 - v1.2 - add security, performance, and admin modifications
+
 2014-12-11 - v1.3 - add admin / options page
 
 Frequently Asked Questions
