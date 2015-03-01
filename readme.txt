@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=MBTuGoGX
 Tags: improvements, wordpress, admin, security
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.4
+Stable tag: 1.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
