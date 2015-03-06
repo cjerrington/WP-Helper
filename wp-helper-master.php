@@ -87,7 +87,15 @@ if (get_option ( 'wphm_query_version' )){
 	add_filter( 'style_loader_src', 'wphm_remove_script_version', 15, 1 );
 }
 
-if (get_option( 'wphm_xmlrpc' )){remove_filter('atom_service_url','atom_service_url_filter');}
+function wphm_remove_xmlrpc_pingback_ping( $methods ) {
+	unset( $methods['pingback.ping'] );
+	return $methods;
+}
+
+if (get_option( 'wphm_xmlrpc' )){
+	remove_filter('atom_service_url','atom_service_url_filter');
+	add_filter( 'xmlrpc_methods', 'wphm_remove_xmlrpc_pingback_ping' );
+}
 
 if(get_option ( 'wphm_autoformat' )){
 	remove_filter( 'the_content', 'wpautop' );
