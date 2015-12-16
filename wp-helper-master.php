@@ -4,7 +4,7 @@ Plugin Name: WordPress Helper Master
 Plugin Script: wp-helper-master.php
 Plugin URI: https://github.com/cjerrington/WP-Helper/
 Description: Removes and speeds up WordPress. 
-Version: 1.4.2
+Version: 1.4.3
 Author: Clayton Errington
 Author URI: http://claytonerrington.com
 License: GPL-2.0+
@@ -87,15 +87,7 @@ if (get_option ( 'wphm_query_version' )){
 	add_filter( 'style_loader_src', 'wphm_remove_script_version', 15, 1 );
 }
 
-function wphm_remove_xmlrpc_pingback_ping( $methods ) {
-	unset( $methods['pingback.ping'] );
-	return $methods;
-}
-
-if (get_option( 'wphm_xmlrpc' )){
-	remove_filter('atom_service_url','atom_service_url_filter');
-	add_filter( 'xmlrpc_methods', 'wphm_remove_xmlrpc_pingback_ping' );
-}
+if (get_option( 'wphm_xmlrpc' )){remove_filter('atom_service_url','atom_service_url_filter');}
 
 if(get_option ( 'wphm_autoformat' )){
 	remove_filter( 'the_content', 'wpautop' );
@@ -171,8 +163,8 @@ add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
 }
 
 function wphm_custom_dashboard_help() {
-	echo '<p>Welcome to the Dashboard! Need help? Contact the developer at <a href="mailto:cerrigntondesigns@me.com">cerrigntondesigns@me.com</a>. 
-	<br />For more information visit: <a href="http://claytonerrington.wix.com/portfolio" target="_blank">His website</a></p>
+	echo '<p>Welcome to the Dashboard! Need help? Contact the developer at <a href="mailto:me@claytonerrington.com">me@claytonerrington.com</a>. 
+	<br />For more information visit: <a href="http://claytonerrington.com/" target="_blank">His website</a></p>
 	<p>If you like this plugin, send him some money to keep it up. Buy him a coffee to show your support!</p>
 	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
