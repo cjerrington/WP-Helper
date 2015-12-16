@@ -2,7 +2,7 @@
 /*
 Plugin Name: WordPress Helper Master
 Plugin Script: wp-helper-master.php
-Plugin URI: https://github.com/cjerrington/WP-Helper/
+Plugin URI: http://claytonerrington.com/WP-Helper/
 Description: Removes and speeds up WordPress. 
 Version: 1.4.3
 Author: Clayton Errington
@@ -164,7 +164,7 @@ add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
 
 function wphm_custom_dashboard_help() {
 	echo '<p>Welcome to the Dashboard! Need help? Contact the developer at <a href="mailto:me@claytonerrington.com">me@claytonerrington.com</a>. 
-	<br />For more information visit: <a href="http://claytonerrington.com/" target="_blank">His website</a></p>
+	<br />For more information visit: <a href="http://claytonerrington.com/WP-Helper/" target="_blank">His website</a></p>
 	<p>If you like this plugin, send him some money to keep it up. Buy him a coffee to show your support!</p>
 	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
